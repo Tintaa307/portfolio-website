@@ -31,7 +31,7 @@ const OnClick2 = () => {
   const redes = document.querySelector('.container-redes');
   const info = document.querySelector('.container-data-work');
   const botones = document.querySelector('.container-buttons');
-  const proyectBtn = document.querySelector('.container-buttons-proyects')
+  const proyectBtn = document.querySelector('.container-buttons-proyects');
   const carrousel = document.querySelector('.container-websites');
   const experiencia = document.querySelector('.container-skills');
   document.body.classList.remove("dark");
