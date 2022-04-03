@@ -1,0 +1,285 @@
+.section-home {
+    width: 100%;
+    margin-bottom: -1.5rem;
+}
+
+.section-home .container-content {
+    width: 60%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.section-home .container-content .container-img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid var(--color-main);
+    background: linear-gradient(180deg, 
+                hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
+                hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+    border-radius: 30rem;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1.5rem;
+}
+
+.section-home .container-content .container-darkmode {
+    top: 40px;
+    right: 350px;
+    position: absolute;
+    font-size: var(--h3-size);
+    cursor: pointer;
+    visibility: visible;
+    transition: 0.2s ease-in-out;
+}
+
+.section-home .container-content .container-darkmode.disable {
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.section-home .container-content .container-lightmode {
+    top: 40px;
+    right: 350px;
+    position: absolute;
+    font-size: var(--h3-size);
+    cursor: pointer;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.section-home .container-content .container-lightmode.active {
+    visibility: visible;
+    transition: 0.2s ease-in-out;
+}
+
+.section-home .container-content .container-img img {
+    width: 160%;
+    margin-right: 42px;
+}
+
+.section-home .container-content .container-titles.dark h1 {
+    color: #fff;
+}
+
+.section-home .container-content .container-titles.dark h3 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section-home .container-content .container-titles h1 {
+    font-size: var(--h1-size);
+    color: var(--title-color);
+    padding-bottom: 0.7rem;
+}
+
+.section-home .container-content .container-titles h3 {
+    font-size: var(--default-size);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.section-home .container-content .container-redes i {
+    margin: 0 29px;
+    font-size: var(--h2-size);
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
+
+.section-home .container-content .container-redes.dark i {
+    color: #fff;
+}
+
+.section-home .container-content .container-redes i:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.section-home .container-content .container-data-work {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.section-home .container-content .container-data-work .data h3.first {
+    padding-bottom: -3rem;
+}
+
+.section-home .container-content .container-data-work.dark .data h2 {
+    color: #fff;
+}
+
+.section-home .container-content .container-data-work.dark .data h3.first {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section-home .container-content .container-data-work.dark .data h3.second {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section-home .container-content .container-data-work .data h3.second {
+    margin-top: -1rem;
+}
+
+.section-home .container-content .container-buttons {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.section-home .container-content .container-buttons button.download {
+    margin-right: 40px;
+    margin-left: -60px;
+    outline: none;
+    background-color: var(--color-main);
+    border: none;
+    border-radius: 15px;
+    width: 220px;
+    height: 65px;
+    color: #fff;
+    font-size: var(--default-size);
+}
+
+.section-home .container-content .container-buttons.dark button.download {
+    box-shadow: 0 0 20px var(--color-main);
+}
+
+.section-home .container-content .container-buttons button.red {
+    background-color: var(--text-color-lighten);
+    outline: none;
+    border: 2px solid var(--text-color-lighten);
+    width: 65px;
+    height: 65px;
+    font-size: var(--h2-size);
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.section-home .container-content .container-buttons.dark button.red {
+    background-color: #000;
+    color: #fff;
+}
+
+.section-home .container-content .container-buttons.dark button.red:hover {
+    background-color: #13131a;
+}
+
+.section-home .container-content .container-buttons button.red:hover {
+    cursor: pointer;
+    background-color: var(--text-color-light);
+    transition: 0.4s ease-in-out;
+}
+
+.section-home .container-content .container-buttons button.download:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s ease-in-out;
+}
+
+/* ======================== MEDIA QUERYS ========================*/
+
+@media screen and (max-width: 968px) {
+    
+    .section-home .container-content .container-buttons {
+        width: 100%;        
+    }
+
+    .section-home .container-content .container-darkmode {
+        position: absolute;
+        top: 60px;
+        right: 200px;
+    }
+
+    .section-home .container-content .container-lightmode {
+        position: absolute;
+        top: 60px;
+        right: 200px;
+    }
+
+}
+
+@media screen and (max-width: 738px) {
+    
+    .section-home .container-content .container-darkmode {
+        position: absolute;
+        top: 60px;
+        right: 100px;
+    }
+
+    .section-home .container-content .container-lightmode {
+        position: absolute;
+        top: 60px;
+        right: 100px;
+    }
+
+}
+
+@media screen and (max-width: 688px) {
+    
+    .section-home .container-content .container-data-work {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 582px) {
+
+    .section-home .container-content {
+        width: 100%;
+    }
+    
+
+    .section-home .container-content .container-buttons {
+        width: 100%;
+    }
+    
+    .section-home .container-content .container-buttons button.download {
+        width: 180px;
+        margin-right: 10px;
+    }
+
+    .section-home .container-content .container-buttons button.red {
+        width: 60px;
+    }
+
+    .section-home .container-content .container-darkmode {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+    }
+
+    .section-home .container-content .container-lightmode {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .section-home .container-content .container-buttons {
+        width: 100%;
+    }
+
+    .section-home .container-content .container-buttons button.download {
+        width: 130px;
+        margin-right: 5px;
+    }
+
+    .section-home .container-content .container-buttons button.red {
+        width: 55px;
+    }
+
+}

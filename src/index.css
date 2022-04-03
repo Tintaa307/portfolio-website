@@ -12,7 +12,9 @@
 --color-main-alt: hsl(var(--hue), var(--sat), 57%);
 --title-color: hsl(var(--hue), 12%, 15%);
 --text-color: hsl(var(--hue), 12%, 48%);
---body-color: hsl(var(--hue), 100%, 99%);
+--text-color-light: hsl(var(--hue), 8%, 75%);
+--text-color-lighten: hsl(var(--hue), 8%, 87%);
+--body-color: hsl(var(--hue), 100%, 96%);
 --container-color: #fff;
 
   /* ============= SIZES ============= */
@@ -24,6 +26,12 @@
   --sm-size: 0.831rem;
   --smx-size: 0.771rem;
   --transition: 0.4s ease-in-out;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
 html {
@@ -42,6 +50,14 @@ html {
 body {
   background-color: var(--body-color);
   font-family: var(--body-font);
+  transition: var(--transition);
+}
+
+body.dark {
+  background-color: #000;
+  color: #fff;
+  font-family: var(--body-font);
+  transition: var(--transition);
 }
 
 section.section {

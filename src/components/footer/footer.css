@@ -1,0 +1,10 @@
+.section.section-footer {
+    width: 100%;
+}
+
+.section.section-footer .container-content h3 {
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: var(--sm-size);
+}
