@@ -86,8 +86,12 @@ const Home = () => {
               </div>
             </div>
             <div className="container-buttons">
-              <button className='download'>Download CV <i class="fas fa-download"></i></button>
-              <button className='red'><i className='fab fa-whatsapp'></i></button>
+              <a download="" href="assets/pdf/Gianell-Cv.pdf">
+                <button className='download'>Download CV<i class="fas fa-download"></i></button>
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=1144489123&text=Hello, more information!" target="_blank">
+                <button className='red'><i className='fab fa-whatsapp'></i></button>
+              </a>
               <button className='red'><i className='fab fa-facebook-messenger'></i></button>
             </div>
           </div>
