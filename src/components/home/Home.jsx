@@ -89,7 +89,7 @@ const Home = () => {
               <a download="" href="assets/pdf/Gianell-Cv.pdf">
                 <button className='download'>Download CV<i class="fas fa-download"></i></button>
               </a>
-              <a href="https://api.whatsapp.com/send?phone=1144489123&text=Hello, more information!" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=+5491144489123&text=Hello, more information!" target="_blank">
                 <button className='red'><i className='fab fa-whatsapp'></i></button>
               </a>
               <a href="https://m.me/bedimcode" target="_blank">
