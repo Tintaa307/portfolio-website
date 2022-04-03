@@ -197,13 +197,13 @@
 
     .section-home .container-content .container-darkmode {
         position: absolute;
-        top: 60px;
+        top: 20px;
         right: 200px;
     }
 
     .section-home .container-content .container-lightmode {
         position: absolute;
-        top: 60px;
+        top: 20px;
         right: 200px;
     }
 
@@ -213,13 +213,13 @@
     
     .section-home .container-content .container-darkmode {
         position: absolute;
-        top: 60px;
+        top: 20px;
         right: 100px;
     }
 
     .section-home .container-content .container-lightmode {
         position: absolute;
-        top: 60px;
+        top: 20px;
         right: 100px;
     }
 
@@ -228,7 +228,7 @@
 @media screen and (max-width: 688px) {
     
     .section-home .container-content .container-data-work {
-        width: 100%;
+        width: 80%;
     }
 
 }
@@ -255,14 +255,22 @@
 
     .section-home .container-content .container-darkmode {
         position: absolute;
-        top: 60px;
-        right: 20px;
+        top: 10px;
+        right: 130px;
     }
 
     .section-home .container-content .container-lightmode {
         position: absolute;
-        top: 60px;
-        right: 20px;
+        top: 10px;
+        right: 130px;
+    }
+
+}
+
+@media screen and (max-width: 486px) {
+
+    .section-home .container-content .container-buttons {
+        margin-left: 25px;
     }
 
 }
@@ -280,6 +288,38 @@
 
     .section-home .container-content .container-buttons button.red {
         width: 55px;
+    }
+
+    .section-home .container-content .container-darkmode {
+        position: absolute;
+        top: 10px;
+        right: 80px;
+    }
+
+    .section-home .container-content .container-lightmode {
+        position: absolute;
+        top: 10px;
+        right: 80px;
+    }
+
+}
+
+@media screen and (max-width: 386px) {
+
+    .section-home .container-content .container-lightmode {
+        position: absolute;
+        top: 10px;
+        right: 60px;
+    }
+
+    .section-home .container-content .container-darkmode {
+        position: absolute;
+        top: 10px;
+        right: 60px;
+    }
+
+    .section-home .container-content .container-buttons {
+        margin-left: 27px;
     }
 
 }
