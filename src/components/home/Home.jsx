@@ -92,7 +92,9 @@ const Home = () => {
               <a href="https://api.whatsapp.com/send?phone=1144489123&text=Hello, more information!" target="_blank">
                 <button className='red'><i className='fab fa-whatsapp'></i></button>
               </a>
-              <button className='red'><i className='fab fa-facebook-messenger'></i></button>
+              <a href="https://m.me/bedimcode" target="_blank">
+                <button className='red'><i className='fab fa-facebook-messenger'></i></button>
+              </a>
             </div>
           </div>
         </div>
